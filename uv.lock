@@ -428,7 +428,7 @@ dev = [
 
 [[package]]
 name = "illallangi-mastodon"
-version = "0.3.1"
+version = "0.3.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "appdirs" },
@@ -445,9 +445,9 @@ dependencies = [
     { name = "validate-email-address" },
     { name = "yarl" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a3/3e/d7dbb8710299f27248b11e939b62a86cfb4de25302cbc782cd50ba70a1c7/illallangi_mastodon-0.3.1.tar.gz", hash = "sha256:8af27ce73a0afe8e9a474208a2abba637d7fca05d5b04d271e5da490a2e45397", size = 11032 }
+sdist = { url = "https://files.pythonhosted.org/packages/8d/fe/3a36a545dc5d32a33636800fbd194f9ba83d27829c6d04bb26b1cdc7ed9d/illallangi_mastodon-0.3.2.tar.gz", hash = "sha256:07dc02806f24af4ca542c2075dfe95ae8992218cd65ad72ad3338a3f149a39fd", size = 11085 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/62/64/c35798d281bc84d5bd1e3781644712730dd78dd5d49ea2d03ceb2ab0948f/illallangi_mastodon-0.3.1-py3-none-any.whl", hash = "sha256:92b0fe90e7344798d9e323f3be13ec49ce6de241753426dd181f6cb18cc89645", size = 14986 },
+    { url = "https://files.pythonhosted.org/packages/47/7a/7347dce28800ad7f1ed5c198f7d3d5f4d2f7bb42e092470ea11e6cbba70d/illallangi_mastodon-0.3.2-py3-none-any.whl", hash = "sha256:fdebd6ea856d6113f745eeba580a7eb55d027a0f9577d93492dfa97e2f06f7f9", size = 15007 },
 ]
 
 [[package]]

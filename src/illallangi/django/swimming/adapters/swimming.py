@@ -45,7 +45,7 @@ class SwimmingAdapter(diffsync.Adapter):
                 Swim(
                     pk=obj.pk,
                     url=obj.url,
-                    date=obj.date.isoformat(),
+                    date=obj.date,
                     distance=obj.distance,
                     laps=obj.laps,
                 ),

@@ -12,6 +12,8 @@ Methods:
     __str__(): Returns a string representation of the Swim instance in the format "Swim {id}".
 """
 
+from datetime import date
+
 import diffsync
 
 from illallangi.django.swimming.models.swim import Swim as ModelSwim
@@ -35,7 +37,7 @@ class Swim(
 
     pk: int
     url: str
-    date: str
+    date: date
     distance: int
     laps: float
 
