@@ -47,6 +47,7 @@ ignore="H006"
 [tool.ruff]
 lint.select = ["ALL"]
 lint.ignore = [
+    "D",
     "COM812",
     "E501",
     "ISC001",

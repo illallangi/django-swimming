@@ -1,16 +1,3 @@
-"""
-Render the swims HTML page with pagination and breadcrumbs.
-
-This view handles GET requests and renders the swims HTML page. It includes
-pagination for the list of swims, breadcrumbs for navigation, and alternate
-links for different content types.
-
-Args:
-    request (HttpRequest): The HTTP request object.
-Returns:
-    HttpResponse: The rendered HTML response.
-"""
-
 import calendar
 
 from django.contrib.humanize.templatetags.humanize import ordinal
@@ -31,14 +18,6 @@ def swims_html(
     swim_day: str | None = None,
     **_: dict,
 ) -> render:
-    """
-    Render the swims HTML page with a list of swim objects and related metadata.
-
-    Args:
-        request (HttpRequest): The HTTP request object.
-    Returns:
-        render: The rendered HTML page for swims.
-    """
     objects = Swim.objects.all()
     if swim_year:
         objects = objects.filter(date__year=swim_year)

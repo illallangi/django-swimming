@@ -1,16 +1,3 @@
-"""
-Render the home HTML page with pagination and breadcrumbs.
-
-This view handles GET requests and renders the home HTML page. It includes
-a list of models for this app, breadcrumbs for navigation, and alternate
-links for different content types.
-
-Args:
-    request (HttpRequest): The HTTP request object.
-Returns:
-    HttpResponse: The rendered HTML response.
-"""
-
 from django.core.paginator import Paginator
 from django.http import HttpRequest
 from django.shortcuts import render
@@ -25,14 +12,6 @@ def home_html(
     request: HttpRequest,
     **_: dict,
 ) -> render:
-    """
-    Render the home HTML page with a list of models for this app.
-
-    Args:
-        request (HttpRequest): The HTTP request object.
-    Returns:
-        render: The rendered HTML page for home.
-    """
     base_template = "partial.html" if request.htmx else "base.html"
 
     return render(
